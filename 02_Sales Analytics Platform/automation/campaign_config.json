@@ -1,0 +1,39 @@
+{
+  "churn_prevention": {
+    "high_risk_threshold": 0.7,
+    "medium_risk_threshold": 0.3,
+    "actions": [
+      "retention_email",
+      "discount_offer",
+      "personal_call"
+    ]
+  },
+  "purchase_promotion": {
+    "high_likelihood_threshold": 0.6,
+    "medium_likelihood_threshold": 0.3,
+    "actions": [
+      "product_recommendation",
+      "flash_sale",
+      "loyalty_points"
+    ]
+  },
+  "engagement_boost": {
+    "low_engagement_threshold": 0.5,
+    "actions": [
+      "content_recommendation",
+      "survey_request",
+      "welcome_series"
+    ]
+  },
+  "email_settings": {
+    "smtp_server": "localhost",
+    "smtp_port": 587,
+    "sender_email": "marketing@company.com",
+    "use_tls": true
+  },
+  "campaign_limits": {
+    "max_emails_per_customer_per_day": 2,
+    "max_sms_per_customer_per_week": 1,
+    "cooldown_hours": 24
+  }
+}

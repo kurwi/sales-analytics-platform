@@ -1,0 +1,35 @@
+# Include documentation files
+include README.md
+include LICENSE
+include CHANGELOG.md
+include CONTRIBUTING.md
+
+# Include configuration files
+include requirements.txt
+recursive-include config *.txt *.yml *.yaml *.json *.ini
+
+# Include data generation scripts
+recursive-include data *.py
+
+# Include documentation
+recursive-include docs *.md *.rst *.txt
+
+# Include notebooks
+recursive-include notebooks *.ipynb *.md
+
+# Include Docker files
+include docker/Dockerfile
+include docker/docker-compose.yml
+
+# Exclude development and build files
+global-exclude __pycache__
+global-exclude *.py[cod]
+global-exclude *.so
+global-exclude .DS_Store
+global-exclude *.swp
+global-exclude *.log
+
+# Exclude test files from distribution
+prune tests
+prune .venv
+prune logs

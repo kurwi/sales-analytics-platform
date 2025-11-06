@@ -1,0 +1,71 @@
+{
+  "exercise_6": {
+    "score": 75.0,
+    "passed": 18,
+    "total": 24,
+    "details": {
+      "dir_data": true,
+      "dir_recommendations": true,
+      "dir_dashboard": true,
+      "dir_models": true,
+      "dir_cache": true,
+      "dir_logs": true,
+      "dir_reports": true,
+      "file_data/generate_sample_data.py": true,
+      "file_recommendations/engine.py": true,
+      "file_dashboard/business_analytics.py": true,
+      "file_requirements.txt": true,
+      "file_README.md": true,
+      "file_ENTERPRISE_README.md": true,
+      "file_docker-compose.yml": true,
+      "file_Dockerfile": true,
+      "data_customers.csv": false,
+      "data_products.csv": false,
+      "data_transactions.csv": false,
+      "pkg_pandas": true,
+      "pkg_numpy": true,
+      "pkg_scikit-learn": false,
+      "pkg_streamlit": false,
+      "pkg_plotly": true,
+      "pkg_surprise-lib": false
+    }
+  },
+  "exercise_7": {
+    "score": 84.0,
+    "passed": 21,
+    "total": 25,
+    "details": {
+      "dir_data": true,
+      "dir_src": true,
+      "dir_src/etl": true,
+      "dir_src/features": true,
+      "dir_src/models": true,
+      "dir_src/dashboard": true,
+      "file_data/generate_sample_data.py": true,
+      "file_data/generate_enterprise_data.py": true,
+      "file_src/etl/load.py": true,
+      "file_src/etl/transform.py": true,
+      "file_src/features/features.py": true,
+      "file_src/models/advanced_ml.py": true,
+      "file_src/dashboard/app.py": true,
+      "file_src/dashboard/enterprise_app.py": true,
+      "file_run_dashboard.py": true,
+      "file_requirements.txt": true,
+      "file_README.md": true,
+      "file_ENTERPRISE_README.md": true,
+      "data_sales": false,
+      "pkg_pandas": true,
+      "pkg_numpy": true,
+      "pkg_scikit-learn": false,
+      "pkg_plotly": true,
+      "pkg_dash": false,
+      "pkg_dash_bootstrap_components": false
+    }
+  },
+  "overall": {
+    "score": 79.5,
+    "status": "\ud83d\udd04 IN PROGRESS",
+    "exercise_6_score": 75.0,
+    "exercise_7_score": 84.0
+  }
+}
